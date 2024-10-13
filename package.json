@@ -1,0 +1,18 @@
+{
+    "name": "BE của Thuận Phát",
+    "version": "1.0.0",
+    "main": "server.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "nodemon server.js",
+        "reload": "node --watch  server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "dependencies": {
+        "express": "^4.21.1",
+        "nodemon": "^2.0.22"
+    }
+}
